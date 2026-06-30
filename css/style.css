@@ -11,11 +11,80 @@
 }
 
 .img {
-    width: 100px;
-    height: 100px;
-    
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+
+.img img {
+    width: 150px;
+    height: 130px;
+    border-radius: 10px;
 }
 
 .img :hover {
-    transform: scale(1.25);
+    transform: scale(1.15);
+}
+
+.titulo_produto {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(66, 64, 64);
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.descr_produto {
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    font-size: 15px;
+    color: rgb(66, 64, 64);
+    padding-bottom: 15px;
+}
+
+.btnSomar button {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btnSubtrair button{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btnSomar {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.btnSubtrair {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.qtd_prod{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 }
